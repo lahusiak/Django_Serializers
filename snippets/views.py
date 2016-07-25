@@ -8,7 +8,9 @@
 # from snippets.serializers import SnippetSerializer
 
 # Tutorial 2
-from rest_framework import datetime
+
+from rest_framework import time
+
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
