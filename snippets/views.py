@@ -12,7 +12,7 @@ from rest_framework import renderers
 from rest_framework import viewsets
 from rest_framework.decorators import detail_route
 
-@api_view(['GET'])
+# @api_view(['GET'])
 def api_root(request, format = None):
     return Response({
         'users': reverse('user-list', request=request, format=format),
